@@ -1,0 +1,101 @@
+.main_back {
+    background-color: #ffffff;
+}
+
+.static_city {
+    position: relative;
+    background-color: #7BA7AB;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+    width: 700px;
+    height: 135px;
+    padding: 10px;
+    border-radius: 10px;
+    font: 12pt sans-serif;
+}
+
+.rates, .info_Area {
+    background-color: #7BA7AB;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    font: 12pt sans-serif;
+}
+
+.city_name {
+    font: bold 16pt sans-serif;
+}
+
+.search {
+    width: 700px;
+    height: 60px;
+    position: relative;
+    margin: 1% auto;
+    text-align: center;
+}
+
+.input_city {
+    width: 40%;
+    height: 42px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #161616;
+    font: 12pt sans-serif;
+}
+
+.button_get_weather {
+    margin: 1% auto;
+    position: relative;
+    right: 30px;
+    width: 15%;
+    height: 48px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font: 12pt sans-serif;
+    text-align: center;
+}
+
+.delWeather {
+    top: 0;
+    width: 84px;
+    height: 24px;
+    border: none;
+    background: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
+    font: 12pt sans-serif;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.image_weather {
+    max-width: 20px;
+    max-height: 20px;
+    display: block;
+    margin-left: 1%;
+}
+
+.sun {
+    position: absolute;
+    left: 1%;
+}
+
+.cloud {
+    position: absolute;
+    right: 1%;
+}

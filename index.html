@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src='index.js'></script>
+</head>
+<body>
+<div class="main_back">
+
+
+    <div class="static_city">
+        <div class="image_weather">
+            <img class="sun" src="images/sun_130.png" alt="Альтернативный текст">
+        </div>
+        <div class="image_weather">
+            <img class="cloud" src="images/cloud_130.png" alt="Альтернативный текст">
+        </div>
+        <!--<div class="city_name">-->
+        <!--Информация о вашем местоположении: </br>-->
+        <!--</div>-->
+        <div class="weather_style weather_1">
+            <script>citySearchByCoord();</script>
+        </div>
+
+
+    </div>
+
+    <div class="rates">
+        <div class="city_name">
+            Курс валют: </br>
+        </div>
+        <div class="weather_style rates_all">
+            <script>getRates();</script>
+        </div>
+    </div>
+
+    <div>
+        <div class="search">
+            <input class="input_city" type="text" id="text-to-find" placeholder="Введите город англ."
+                   autocomplete="on | off">
+
+            <button class="button_get_weather" id="getWeather">Поиск
+                <script>getWeather.onclick = function () {
+                    citySearchByName();
+                }</script>
+            </button>
+            </input>
+        </div>
+
+        <div class="dynamic_city">
+            <div class="weather_style weather_2">
+                <script>getLocalStorageWeather();</script>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src='delete.js'></script>
+</body>
+
+</html>
